@@ -2,5 +2,5 @@
 ## The Odin Project Foundations Exercise
 
 Creating an entire web page from the design provided below:
-[01.png]
-[02.png]
+![Design](01.png)
+![Fonts & Colors](02.png)
