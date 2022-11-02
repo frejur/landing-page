@@ -20,6 +20,7 @@ button {
     border-width: 0;
     font-weight: bold;
     margin: 8px 0;
+    cursor: pointer;
 }
 
 .solid {
@@ -211,3 +212,10 @@ button {
         font-size: 11pt;
 }
 
+#footer {
+    height: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10pt;;
+}
