@@ -39,6 +39,11 @@ button {
     color: #eee;
 }
 
+.hero, .info, .quote, .action {
+    box-sizing: border-box;
+    width: 100%;
+}
+
 #header {
     display: flex;
     justify-content: space-between;
@@ -102,4 +107,10 @@ button {
 .placeholder-text {
     margin: auto;
     color: white;
+}
+
+.info {
+    padding-top: 96px;
+    padding-bottom: 96px;
+    background-color: white;
 }
