@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300;1,400&display=swap');
 
 * {
     font-family: 'Roboto', sans-serif;
@@ -15,7 +15,7 @@ a {
 }
 
 button {
-    padding: 6px 18px;
+    padding: 6px 22px;
     border-radius: 8px;
     border-width: 0;
     font-weight: bold;
@@ -25,6 +25,13 @@ button {
 .solid {
     background-color: #397eef;
     color: white;
+}
+
+.outline {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: white 2px solid;
+
 }
 
 .pad-sides {
@@ -161,6 +168,7 @@ button {
     display: flex;
     flex-direction: column;
     margin: 0 19%;
+    gap: 8px 0;
 }
 
 .quote blockquote {
@@ -169,11 +177,37 @@ button {
     padding: 0;
     font-size: 18pt;
     font-style: italic;
+    font-weight: 300;
 }
 
 .quote figcaption {
     align-self: flex-end;
     margin-right: 36px;
     font-weight: 700;
+}
+
+.action {
+    padding-top: 96px;
+    padding-bottom: 96px;
+    background-color: white;
+}
+
+.action-box {
+    background-color: #397eef;
+    border-radius: 18px;
+    border: none;
+    padding: 16px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+}
+
+.action-box h3, .action-box p {
+    margin: 0;
+}
+
+.action-box p {
+        font-size: 11pt;
 }
 
